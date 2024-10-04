@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo album containing images of temples">
+    <meta name="author" content="Jackson T. Chapman">
+    <title>WDD 131 - Dynamic Web Fundamentals - Temple Album</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+             Temple Album
+        </h1>
+
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+        
+        <nav class="navigation">
+            <a href="temples.html">Home</a>
+            <a href="temples.html">Old</a>
+            <a href="temples.html">New</a>
+            <a href="temples.html">Large</a>
+            <a href="temples.html">Small</a>
+        </nav>
+
+    </header>
+
+    <main>
+            <h2>
+                Home
+            </h2>
+        <div id="album">
+            <figure>
+                <img src="images/helena-mt.jpeg" alt="Image of Helena, Montana temple.">
+                <figcaption>Helena, Montana</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/billings-mt.jpeg" alt="Image of Billings, Montana temple.">
+                <figcaption>Billings, Montana</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/spokane-wa.jpeg" alt="Image of Spokane Valley, Washington temple.">
+                <figcaption>Spokane Valley, Washington</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/nauvoo-il.jpeg" alt="Image of Nauvoo, Illinois temple.">
+                <figcaption>Nauvoo, Illinois</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/casper-wy.jpeg" alt="Image of Casper, Wyoming temple.">
+                <figcaption>Casper, Wyoming</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/idaho-falls-id.jpeg" alt="Image of Idaho Falls, Idaho temple.">
+                <figcaption>Idaho Falls, Idaho</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/fort-collins-co.jpeg" alt="Image of Fort Collins, Colorado temple.">
+                <figcaption>Fort Collins, Colorado</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/bismark-nd.jpeg" alt="Image of Bismark, North Dakota temple.">
+                <figcaption>Bismark, North Dakota</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/raleigh-nc.jpeg" alt="Image of Raleigh, North Carolina temple.">
+                <figcaption>Raleigh, North Carolina</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+    
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>
