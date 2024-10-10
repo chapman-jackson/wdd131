@@ -1,0 +1,39 @@
+@media screen and (min-width: 500px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    header nav {
+        font-size: 1.5em;
+        gap: 20px;
+    }
+
+    #album {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #hamburger-button{
+        display: none;
+    }
+    
+}

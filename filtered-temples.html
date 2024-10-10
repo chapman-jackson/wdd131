@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo album containing images of temples">
+    <meta name="author" content="Jackson T. Chapman">
+    <title>WDD 131 - Dynamic Web Fundamentals - Temple Album</title>
+    <link rel="preconnect" href="https://content.churchofjesuschrist.org">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+             Temple Album
+        </h1>
+
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+        
+        <nav class="navigation">
+            <a href="filtered-temples.html">Home</a>
+            <a href="#" id="sort-old">Old</a>
+            <a href="#" id="sort-new">New</a>
+            <a href="#" id="sort-large">Large</a>
+            <a href="#" id="sort-small">Small</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2 id="filtered-title">Home</h2>
+        <div id="album">Home</div>
+    </main>
+
+    <footer>
+    
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>
