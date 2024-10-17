@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product review form for week five of wdd131x">
+    <meta name="author" content="Jackson T. Chapman">
+    <title>WDD 131 - Dynamic Web Fundamentals - Product review form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="pf1">
+
+                <legend>Product Name</legend>
+                <label>
+                    <select name="productname" id="productName" aria-label="select product name">
+                        <option value="" disabled selected>Choose a Product...</option>
+                    </select>
+                </label>
+
+
+                <legend>Rating</legend>
+                <div id="rateButtons">
+                    <label> <input type="radio" name="rating" value="oneStar">★</label>
+                    <label> <input type="radio" name="rating" value="twoStar">★★</label>
+                    <label> <input type="radio" name="rating" value="threeStar">★★★</label>
+                    <label> <input type="radio" name="rating" value="fourStar">★★★★</label>
+                    <label> <input type="radio" name="rating" value="fiveStar">★★★★★</label>
+                </div>
+
+
+                <legend>Date of Installation</legend>
+                <label><input type="date" name="date" id="selectDate" placeholder="mm/dd/yyyy" aria-label="select date of installation"></label>
+
+
+                <legend>Which features did you find useful in the product?</legend>
+                <div> (Check all that apply.)</div>
+                <label><input type="checkbox" name="durable">Durability</label>
+                <label><input type="checkbox" name="easy">Ease of Use</label>
+                <label><input type="checkbox" name="perform">Performance</label>
+                <label><input type="checkbox" name="design">Design</label>
+
+
+                <legend>Written Review (optional)</legend>
+                <label><textarea name="writtenreview" id="writeBox" aria-label="write your review"></textarea></label>
+
+
+
+                <legend>Your Name (Optional)</legend> 
+                <label><input type="text" name="userName" id="reviewName" aria-label="enter your name"></label>
+
+
+            <input type="submit" value="Post Review" id="postReview">
+        </form>
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
