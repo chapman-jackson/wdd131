@@ -1,0 +1,81 @@
+header {
+    text-align: center;  
+    background-color: steelblue;
+    padding: 5%;
+    margin-bottom: 0;
+}
+
+picture {
+    display: block;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#data, #weather{
+    text-align: center;
+}
+
+#weather img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+footer {
+    background-color: steelblue;
+    padding: 5%;
+    margin-top: 0;
+}
+
+footer p {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+
+    :root {
+        --info-h-color: rgba(255, 255, 0, 0.7);
+        --info-b-color: rgba(70, 130, 180, 0.7);
+    }
+
+    #data{
+        z-index: 2;
+        background-color: var(--info-b-color);
+        width: 300px;
+        height: 340px;
+        padding: 10px;
+        position: absolute;
+        top: 35%;
+        margin-left: 3%;
+    }
+
+    #weather{
+        background-color: var(--info-b-color);
+        width: 300px;
+        height: 330px;
+        padding: 10px;
+        position: absolute;
+        top: 95%;
+        right: 10%;
+    }
+
+    #data h2, #weather h2 {
+      background-color: var(--info-h-color);
+      padding: 20px;
+      margin-left: -10%;
+    }
+    #weather h2 ::after {
+        content: url(images/weather-icon.svg);
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+    }
+}

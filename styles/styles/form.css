@@ -1,0 +1,126 @@
+header{
+    background-color: steelblue;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.pf1 {
+    background-color: #eee;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.pf1 p{
+    padding-top: 0.8rem;
+    width: 400px;
+}
+
+#productName {
+    height: 44px;
+    width: 400px;
+}
+
+#rateButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 400px;
+}
+
+#selectDate{
+    width: 400px;
+}
+
+.pf1 input[type="checkbox"]{
+width: 20px;
+height: 20px;
+}
+
+#writeBox {
+    height: 70px;
+    width: 400px;
+}
+
+#reviewName {
+    width: 400px;
+}
+
+#postReview {
+    height: 44px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: steelblue;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    
+    .pf1 {
+        background-color: #eee;
+        border: 5px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    
+    .pf1 p{
+        padding-top: 0.8rem;
+        width: 600px;
+    }
+    
+    #productName {
+        height: 44px;
+        width: 600px;
+    }
+    
+    #rateButtons{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 600px;
+    }
+    
+    #selectDate{
+        width: 600px;
+    }
+    
+    .pf1 input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    }
+    
+    #writeBox {
+        height: 70px;
+        width: 600px;
+    }
+    
+    #reviewName {
+        width: 600px;
+    }
+    
+    #postReview {
+        height: 44px;
+        width: 600px;
+        margin-top: 20px;
+    }
+}

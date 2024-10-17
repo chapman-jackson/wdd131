@@ -1,0 +1,21 @@
+header{
+    background-color: steelblue;
+    text-align: center;
+    padding: 2rem;
+}
+
+main{
+    background-color: #999;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#reviewCount {
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    background-color: steelblue;
+    padding: 2rem;
+}
