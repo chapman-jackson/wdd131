@@ -2,6 +2,7 @@ header{
     background-color: steelblue;
     text-align: center;
     padding: 2rem;
+    
 }
 
 main {
@@ -19,9 +20,10 @@ main {
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
-.pf1 legend{
+.pf1 p{
     padding-top: 0.8rem;
     width: 400px;
 }
@@ -53,7 +55,6 @@ height: 20px;
 }
 
 #reviewName {
-    height: 44px;
     width: 400px;
 }
 
@@ -70,13 +71,6 @@ footer{
 }
 
 @media screen and (min-width: 600px) {
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
     
     .pf1 {
         background-color: #eee;
@@ -86,9 +80,10 @@ footer{
         justify-content: space-between;
         padding: 20px;
         box-sizing: border-box;
+        margin: 0 auto;
     }
     
-    .pf1 legend{
+    .pf1 p{
         padding-top: 0.8rem;
         width: 600px;
     }
@@ -120,7 +115,6 @@ footer{
     }
     
     #reviewName {
-        height: 44px;
         width: 600px;
     }
     
