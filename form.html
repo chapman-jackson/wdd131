@@ -6,6 +6,9 @@
     <meta name="description" content="Product review form for week five of wdd131x">
     <meta name="author" content="Jackson T. Chapman">
     <title>WDD 131 - Dynamic Web Fundamentals - Product review form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
@@ -18,7 +21,7 @@
     <main>
         <form method="get" action="review.html" class="pf1">
 
-                <legend>Product Name</legend>
+                <p>Product Name</p>
                 <label>
                     <select name="productname" id="productName" aria-label="select product name">
                         <option value="" disabled selected>Choose a Product...</option>
@@ -26,7 +29,7 @@
                 </label>
 
 
-                <legend>Rating</legend>
+                <p>Rating</p>
                 <div id="rateButtons">
                     <label> <input type="radio" name="rating" value="oneStar">★</label>
                     <label> <input type="radio" name="rating" value="twoStar">★★</label>
@@ -36,11 +39,11 @@
                 </div>
 
 
-                <legend>Date of Installation</legend>
-                <label><input type="date" name="date" id="selectDate" placeholder="mm/dd/yyyy" aria-label="select date of installation"></label>
+                <p>Date of Installation</p>
+                <label><input type="date" name="date" id="selectDate" aria-label="select date of installation"></label>
 
 
-                <legend>Which features did you find useful in the product?</legend>
+                <p>Which features did you find useful in the product?</p>
                 <div> (Check all that apply.)</div>
                 <label><input type="checkbox" name="durable">Durability</label>
                 <label><input type="checkbox" name="easy">Ease of Use</label>
@@ -48,12 +51,12 @@
                 <label><input type="checkbox" name="design">Design</label>
 
 
-                <legend>Written Review (optional)</legend>
+                <p>Written Review (optional)</p>
                 <label><textarea name="writtenreview" id="writeBox" aria-label="write your review"></textarea></label>
 
 
 
-                <legend>Your Name (Optional)</legend> 
+                <p>Your Name (Optional)</p> 
                 <label><input type="text" name="userName" id="reviewName" aria-label="enter your name"></label>
 
 
