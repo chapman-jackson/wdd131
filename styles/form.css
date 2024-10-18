@@ -2,14 +2,14 @@ header{
     background-color: steelblue;
     text-align: center;
     padding: 2rem;
-    
+    box-sizing: border-box;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0;  
 }
 
 .pf1 {
@@ -30,18 +30,18 @@ main {
 
 #productName {
     height: 44px;
-    width: 400px;
+    width: 300px;
 }
 
 #rateButtons{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    width: 400px;
+    width: 300px;
 }
 
 #selectDate{
-    width: 400px;
+    width: 300px;
 }
 
 .pf1 input[type="checkbox"]{
@@ -51,16 +51,16 @@ height: 20px;
 
 #writeBox {
     height: 70px;
-    width: 400px;
+    width: 300px;
 }
 
 #reviewName {
-    width: 400px;
+    width: 300px;
 }
 
 #postReview {
     height: 44px;
-    width: 400px;
+    width: 300px;
     margin-top: 20px;
 }
 
@@ -102,11 +102,6 @@ footer{
     
     #selectDate{
         width: 600px;
-    }
-    
-    .pf1 input[type="checkbox"]{
-    width: 20px;
-    height: 20px;
     }
     
     #writeBox {
