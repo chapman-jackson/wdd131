@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    background-color: #4682b4;
+}
+
+main{
+    text-align: center;
+}
+
+#HandFcolor{ 
+    background-color: #4682b4;
+}
+
+#Pcolor{
+    background-color: #d3d3d3;
+}
+
+#background{
+    background-color: #d3d3d3;
+}
+
+#titleFont{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fontExample{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 400px;
+}
+footer{
+    text-align: center;
+    background-color: #4682b4;
+}
