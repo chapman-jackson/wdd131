@@ -23,7 +23,7 @@
 
                 <p>Product Name</p>
                 <label>
-                    <select name="productname" id="productName" aria-label="select product name">
+                    <select name="productname" id="productName" aria-label="select product name" required>
                         <option value="" disabled selected>Choose a Product...</option>
                     </select>
                 </label>
@@ -31,16 +31,16 @@
 
                 <p>Rating</p>
                 <div id="rateButtons">
-                    <label> <input type="radio" name="rating" value="oneStar">★</label>
-                    <label> <input type="radio" name="rating" value="twoStar">★★</label>
-                    <label> <input type="radio" name="rating" value="threeStar">★★★</label>
-                    <label> <input type="radio" name="rating" value="fourStar">★★★★</label>
-                    <label> <input type="radio" name="rating" value="fiveStar">★★★★★</label>
+                    <label> <input type="radio" name="rating" value="oneStar" required>★</label>
+                    <label> <input type="radio" name="rating" value="twoStar" required>★★</label>
+                    <label> <input type="radio" name="rating" value="threeStar"required>★★★</label>
+                    <label> <input type="radio" name="rating" value="fourStar"required>★★★★</label>
+                    <label> <input type="radio" name="rating" value="fiveStar"required>★★★★★</label>
                 </div>
 
 
                 <p>Date of Installation</p>
-                <label><input type="date" name="date" id="selectDate" aria-label="select date of installation"></label>
+                <label><input type="date" name="date" id="selectDate" aria-label="select date of installation" required></label>
 
 
                 <p>Which features did you find useful in the product?</p>
@@ -60,7 +60,7 @@
                 <label><input type="text" name="userName" id="reviewName" aria-label="enter your name"></label>
 
 
-            <input type="submit" value="Post Review" id="postReview">
+            <input type="submit" value="Post Review" id="postReview" area-label="Post review">
         </form>
     </main>
 
